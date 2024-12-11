@@ -6,7 +6,23 @@ NOTE: This is currently being butilt to take advantage of the new CSS features m
 - fluid font size
 - fluid container width
 - Custom Scrollbar (webkit only)
+- Custom Button (svg support)
+  ```html
+  <!-- Regular button (works exactly as before) -->
+  <button>Click me</button>
 
+  <!-- Button with left icon -->
+  <button>
+      <svg><!-- your icon --></svg>
+      <span>Click me</span>
+  </button>
+
+  <!-- Button with right icon -->
+  <button>
+      <span>Click me</span>
+      <svg><!-- your icon --></svg>
+  </button>
+  ```
 
 # to Do
 - [ ] betternative support for color themes
